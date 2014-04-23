@@ -1,0 +1,18 @@
+{
+    "uuid": "6a48747e-b2f6-42f0-9f3e-7012f9b9ddb2",
+    "watchapp": {
+        "watchface": false
+    },
+    "versionLabel": "1.0",
+    "companyName": "sonphanusa",
+    "capabilities": [
+        ""
+    ],
+    "shortName": "AcceLog",
+    "longName": "AcceLog",
+    "versionCode": 1,
+    "appKeys": {},
+    "resources": {
+        "media": []
+    }
+}
