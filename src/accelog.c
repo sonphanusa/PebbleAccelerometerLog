@@ -57,7 +57,7 @@ static void toggle_accelerometer() {
 		accel_data_service_unsubscribe();
 		// Finish up logging
 		result = data_logging_log(logging_session, &acc_mag, NUM_SAMPLES);	
-		if (result !=  DATA_LOGGING_SUCCESS) data_logging_finish(logging_session);		
+		if (result ==  DATA_LOGGING_SUCCESS) data_logging_finish(logging_session);		
 		// UI
 		text_layer_set_text(center_layer, "Resume ->");
 		text_layer_set_text(bottom_layer, "");
